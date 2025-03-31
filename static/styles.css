@@ -1,0 +1,62 @@
+.header {
+    padding: 1rem 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #deeed6;
+    margin-top: 1rem;
+    margin-button: 1rem;
+}
+
+img {
+    width: 450px;
+    height: 500px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+p, h5, h4, #nameInput, .btn btn-secondary{
+    text-align: left;
+    max-width: 450px;
+    margin: 10px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    color: #346524;
+}
+
+.active {
+    background-color: #343a40; 
+    color: white; 
+}
+
+/* Hobbies Section */
+
+.hobbies {
+    height: 525px;
+    width: 450px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#index-image {
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.options {
+    margin-bottom: 10px;
+}
